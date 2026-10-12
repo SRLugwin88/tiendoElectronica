@@ -1,0 +1,157 @@
+/*General*/
+body{
+margin: 0;
+
+}
+
+
+header{
+
+display: flex;
+
+flex-wrap: wrap;
+gap: 0% 15%;
+width: 100%;
+
+
+
+border: solid;
+
+}
+
+header img{
+
+width: 20%;
+
+height: 20%;
+}
+
+.buscador input{
+
+
+
+
+}
+
+
+
+/*Parte de Abajo doble */
+main{
+
+display: flex;
+border: solid;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*Parte Izquierda*/
+main .cajaIzquierda{
+
+
+border: solid;
+width: 100%;
+}
+
+
+
+
+
+main .cajaIzquierda .imgProductos{
+
+
+display: grid;
+
+grid-template-columns: 1fr 1fr;
+
+
+}
+
+main .cajaIzquierda h2{
+
+display:flex;
+
+justify-content: center;
+
+}
+
+
+ 
+
+/*Para controlar el tamaño de las imagenes*/
+
+.cajaIzquierda .imgProductos img{
+
+width: 70%;
+
+height: 70%;
+
+}
+
+
+
+
+/*Parte Derecha*/
+
+
+
+
+
+/*Cuerpo general*/
+main .cajaDerecha{
+
+border: solid;
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+
+/*Parte de arriba osea los titulos*/
+.cajaDerecha h2{
+
+margin-bottom: 10%;
+display: flex;
+justify-content: center;
+
+
+}
+
+.cajaDerecha h3{
+
+display: flex;
+justify-content: center;
+}
+
+.datosPersonales label{
+
+display: flex;
+justify-content: center;
+
+}
+
+/*Parte de abajo osea los posicionamiento del form etc*/
+
+.cajaDerecha .datosPersonales{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.datosPersonales input{
+
+width: 40%;
+
+}
