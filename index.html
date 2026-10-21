@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>TiendaOnline</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsiveScroll.css">
 </head>
 <body>
 <header>
@@ -42,10 +44,28 @@
 <h2>Computadoras</h2>
 
 <div class="imgProductos">
+    <figure>
 <img src="assets/compu1.jpg" alt="">
+<figcaption>Computadora gama baja</figcaption>
+
+</figure>
+
+<figure>
 <img src="assets/compu2.jpg" alt="">
+<figcaption>Computadora gama media</figcaption>
+
+</figure>
+
+<figure>
 <img src="assets/compu3.jpg" alt="">
+<figcaption>Computadora gama alta</figcaption>
+</figure>
+
+<figure>
 <img src="assets/compu4.jpg" alt="">
+<figcaption>Computadora gama muy alta</figcaption>
+
+</figure>
 </div>
 
 
@@ -54,15 +74,36 @@
 
 
 <div class="imgProductos">
+
+ <figure>   
 <img src="assets/notebook1.jpg" alt="">
+<figcaption>Notebook gama baja</figcaption>
+</figure>
+
+<figure>
 <img src="assets/notebook2.jpg" alt="">
+<figcaption>Notebook gama media</figcaption>
+</figure>
+
+
+<figure>
 <img src="assets/notebook3.jpg" alt="">
+<figcaption>Notebook gama alta</figcaption>
+</figure>
+
+<figure>
 <img src="assets/notebook4.jpg" alt="">
+<figcaption>Notebook gama muy alta</figcaption>
+</figure>
+
 </div>
 
 
 
 </div>
+
+
+
 <div class="cajaDerecha">
 
 <form action="ningunLadoDeMomento" method="ninguno" id="formulario" >
@@ -71,19 +112,37 @@
     
 
  <h3>Datos Personales</h3>
+
 <div class="datosPersonales">
 <label for="nombreape">Nombre y Apellido:</label>
 <input type="text" name="nombre" id="nombreape" >
+<span></span>
 <label for="dni">DNI</label>
 <input type="text" name="dni" id="dni">
+<label for="correo">Correo</label>
+<input type="text" name="correo" id="correo">
 
 
-<button type="submit">Enviar</button>
+
+
+</div>
+
+
+<h3>Datos De Pago</h3>
+
+<div class="datosPersonales">
+
+<label for="numeroTarjeta">Numero De Tarjeta</label>
+<input type="text" name="numeroTarjeta" id="numeroTarjeta">
+<label for="cvv">CVV</label>
+<input type="text="cvv" id="cvv">
+
 
 </div>
 
 
 
+<button type="submit">Enviar</button>
 
 
 

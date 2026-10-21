@@ -40,7 +40,7 @@ main{
 
 display: flex;
 border: solid;
-
+width: 100%;
 
 }
 
@@ -58,6 +58,9 @@ main .cajaIzquierda{
 
 border: solid;
 width: 100%;
+
+
+
 }
 
 
@@ -71,6 +74,9 @@ display: grid;
 
 grid-template-columns: 1fr 1fr;
 
+background-color: gray;
+margin-left: 3%;
+margin-right: 3%;
 
 }
 
@@ -83,7 +89,17 @@ justify-content: center;
 }
 
 
- 
+
+
+/*Para la responsividad del figure*/
+.imgProductos figcaption{
+display: flex;
+justify-content: center;
+
+
+
+}
+
 
 /*Para controlar el tamaño de las imagenes*/
 
@@ -92,6 +108,7 @@ justify-content: center;
 width: 70%;
 
 height: 70%;
+
 
 }
 
@@ -155,3 +172,9 @@ align-items: center;
 width: 40%;
 
 }
+
+
+
+
+
+

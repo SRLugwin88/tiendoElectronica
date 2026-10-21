@@ -1,0 +1,207 @@
+
+
+
+
+
+
+
+
+/*
+media queryes
+
+
+*/
+
+
+/*para zoom en 300%*/
+
+@media (max-width: 430px){
+
+
+main{
+
+width: 120%;
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Responsivo solo para 400% en adelante
+
+*/
+
+@media (max-width: 320px){
+
+header{
+
+width: 140%;
+
+
+}
+
+
+}
+
+
+
+
+@media (max-width: 320px) {
+ 
+    
+
+
+main{
+
+width: 140%;
+
+
+}
+
+
+
+
+
+/*Parte Izquierda*/
+main .cajaIzquierda{
+
+width: 100%;
+
+
+
+}
+
+
+
+
+
+main .cajaIzquierda .imgProductos{
+
+
+
+
+}
+
+main .cajaIzquierda h2{
+font-size: 1.05rem;
+
+}
+
+
+
+
+/*Para la responsividad del figure*/
+.imgProductos figcaption{
+
+font-size: 20%;
+}
+
+
+/*Para controlar el tamaño de las imagenes*/
+
+.cajaIzquierda .imgProductos img{
+
+width: 120%;
+
+height: 50%;
+
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+
+/*Parte Derecha*/
+
+
+
+
+
+/*Cuerpo general*/
+main .cajaDerecha{
+ 
+
+width: 100%;
+
+
+}
+
+
+
+
+
+/*Parte de arriba osea los titulos*/
+.cajaDerecha h2{
+
+font-size: 1.2rem;
+
+
+}
+
+.cajaDerecha h3{
+
+    font-size: 1.05;
+
+}
+
+.datosPersonales label{
+
+    width: 10%;
+    height: 5%;
+
+}
+
+/*Parte de abajo osea los posicionamiento del form etc*/
+
+.cajaDerecha .datosPersonales{
+
+
+
+}
+
+
+.datosPersonales input{
+
+width: 70%;
+height: 5%;
+
+
+}
+
+
+
+
+
+
+
+
+
+}
